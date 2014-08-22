@@ -6,7 +6,7 @@
 ## store the matrix on which we are working on,
 ## store the inverse matrix that is calculate by the second function, if not the inverse matrix is null
 ## if the matrix we are working on is changed, the inverse matrix is set to null and has to be recalculated
-## by the second function
+## by the second function.
 makeCacheMatrix <- function(x = matrix()) {
         iMatrix <- NULL
         
